@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@600&family=Open+Sans:wght@500;600;700&family=Roboto&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <div class="container mx-auto ">
+            <div class="mt-10 flex ">
+                <div class="hidden lg:w-1/4 border lg:flex flex-col  text-[#3f4858] py-4 px-2 bg-[#ffffff] shadow-md mx-4">
+                    <div class="flex justify-center ">
+                        <div class="bg-no-repeat bg-cover"
+                            style="display: flex; justify-content: center; width: 56px; height: 56px; background-image: url(../image/familyy.png);">
+                        </div>
+                    </div>
+
+                    <p class="text-center font-medium">An lộc thịnh vương</p>
+                    <div
+                        class="flex space-x-2 items-center bg-[#6bac1c] justify-center text-white px-2 py-1 text-sm rounded-full mb-4">
+                        <div class="bg-no-repeat bg-cover  "
+                            style=" width: 16px; height: 16px; background-image: url(../image/verified.png);">
+                        </div>
+                        <p>Vàng - 42 hộp</p>
+                    </div>
+                    <a class="flex hover:text-blue-500 px-4 py-2 items-center mb-2 rounded-md cursor-pointer bg-link"
+                        href="#">
+                        <div class="bg-no-repeat bg-contain "
+                            style="width: 22px; height: 22px; background-image: url(../image/dashboard1.png);"></div>
+                        <p class="mx-3">Dashboard</p>
+                    </a>
+                    <a class="flex  hover:text-blue-500 px-4 py-2 items-center mb-2  rounded-md cursor-pointer bg-link"
+                        href="#">
+                        <div class="bg-no-repeat bg-contain "
+                            style="width: 22px; height: 22px; background-image: url(../image/moneyblack.png);"></div>
+                        <p class="mx-3">Đơn hàng của tôi </p>
+                    </a>
+                    <a class="flex  hover:text-blue-500 px-4 py-2 items-center mb-2  rounded-md cursor-pointer bg-link"
+                        href="#">
+                        <div class="bg-no-repeat bg-contain "
+                            style="width: 22px; height: 22px; background-image: url(../image/cash-withdrawa.png);">
+                        </div>
+                        <p class="mx-3">Lịch sử rút tiền </p>
+                    </a>
+                    <a class="flex  hover:text-blue-500 px-4 py-2 items-center mb-2  rounded-md cursor-pointer bg-link"
+                        href="#">
+                        <div class="bg-no-repeat bg-contain "
+                            style="width: 22px; height: 22px; background-image: url(../image/clock.png);"></div>
+                        <p class="mx-3">Lịch sử hoa hồng </p>
+                    </a>
+                    <a class="flex  hover:text-blue-500 px-4 py-2 items-center mb-2  rounded-md cursor-pointer bg-link"
+                        href="#">
+                        <div class="bg-no-repeat bg-contain "
+                            style="width: 22px; height: 22px; background-image: url(../image/group.png);"></div>
+                        <p class="mx-3">Danh sách thành viên </p>
+                    </a>
+                    <a class="flex  hover:text-blue-500 px-4 py-2 items-center mb-2  rounded-md cursor-pointer bg-link"
+                        href="#">
+                        <div class="bg-no-repeat bg-contain "
+                            style="width: 22px; height: 22px; background-image: url(../image/affiliate-marketing.png);">
+                        </div>
+                        <p class="mx-3">Tiếp thị liên kết</p>
+                    </a>
+                    <a class="flex  hover:text-blue-500 px-4 py-2 items-center mb-2  rounded-md cursor-pointer bg-link"
+                        href="#">
+                        <div class="bg-no-repeat bg-contain "
+                            style="width: 22px; height: 22px; background-image: url(../image/setting.png);"></div>
+                        <p class="mx-3">Cài đặt tài khoản</p>
+                    </a>
+                    <a class="flex  hover:text-blue-500 px-4 py-2 items-center mb-2  rounded-md cursor-pointer bg-link"
+                        href="#">
+                        <div class="bg-no-repeat bg-contain "
+                            style="width: 22px; height: 22px; background-image: url(../image/log-out.png);"></div>
+                        <p class="mx-3">Đăng xuất</p>
+                    </a>
+                </div>
+                <div class="lg:hidden flex flex-col fixed bg-white sm:w-[80%] w-[70%] left-[-100%]  h-full top-0 " id="menu">
+                    <a class="flex  hover:text-blue-500 px-4 py-2 items-center mb-2  rounded-md cursor-pointer bg-link"
+                        href="#">
+                        <div class="bg-no-repeat bg-contain "
+                            style="width: 22px; height: 22px; background-image: url(../image/moneyblack.png);"></div>
+                        <p class="mx-3">Đơn hàng của tôi </p>
+                    </a>
+                    <a class="flex  hover:text-blue-500 px-4 py-2 items-center mb-2  rounded-md cursor-pointer bg-link"
+                        href="#">
+                        <div class="bg-no-repeat bg-contain "
+                            style="width: 22px; height: 22px; background-image: url(../image/cash-withdrawa.png);">
+                        </div>
+                        <p class="mx-3">Lịch sử rút tiền </p>
+                    </a>
+                    <a class="flex  hover:text-blue-500 px-4 py-2 items-center mb-2  rounded-md cursor-pointer bg-link"
+                        href="#">
+                        <div class="bg-no-repeat bg-contain "
+                            style="width: 22px; height: 22px; background-image: url(../image/clock.png);"></div>
+                        <p class="mx-3">Lịch sử hoa hồng </p>
+                    </a>
+                    <a class="flex  hover:text-blue-500 px-4 py-2 items-center mb-2  rounded-md cursor-pointer bg-link"
+                        href="#">
+                        <div class="bg-no-repeat bg-contain "
+                            style="width: 22px; height: 22px; background-image: url(../image/group.png);"></div>
+                        <p class="mx-3">Danh sách thành viên </p>
+                    </a>
+                    <a class="flex  hover:text-blue-500 px-4 py-2 items-center mb-2  rounded-md cursor-pointer bg-link"
+                        href="#">
+                        <div class="bg-no-repeat bg-contain "
+                            style="width: 22px; height: 22px; background-image: url(../image/affiliate-marketing.png);">
+                        </div>
+                        <p class="mx-3">Tiếp thị liên kết</p>
+                    </a>
+                    <a class="flex  hover:text-blue-500 px-4 py-2 items-center mb-2  rounded-md cursor-pointer bg-link"
+                        href="#">
+                        <div class="bg-no-repeat bg-contain "
+                            style="width: 22px; height: 22px; background-image: url(../image/setting.png);"></div>
+                        <p class="mx-3">Cài đặt tài khoản</p>
+                    </a>
+                    <a class="flex  hover:text-blue-500 px-4 py-2 items-center mb-2  rounded-md cursor-pointer bg-link"
+                        href="#">
+                        <div class="bg-no-repeat bg-contain "
+                            style="width: 22px; height: 22px; background-image: url(../image/log-out.png);"></div>
+                        <p class="mx-3">Đăng xuất</p>
+                    </a>
+                </div>
+
+                <div class="lg:w-3/4 w-full ">
+                    <div class="lg:hidden flex justify-end
+                    ">
+                        <button class="px-2 py-1 border text-white bg-[#40a9ff] rounded " onclick="toggleMenu()" id="overlay">menu</button>
+                    </div>
+                    <div class="flex items-center mb-5 mx-4">
+                        <div class="bg-no-repeat bg-contain"
+                            style="background-image: url(../image/dashboard1.png); width: 20px; height: 20px; ">
+                        </div>
+                        <p class="text-[20px] font-bold mx-2 text-[#555555]">Dashboard</p>
+                    </div>
+
+                    <div class="flex lg:flex-row lg:flex-wrap flex-col flex-gap gap-y-5 lg:ml-4 ">
+                        <div class="lg:w-1/2 w-full">
+                            <div class="flex items-center justify-between  border p-3 bg-[#ffffff] px-2 rounded">
+                                <div class="flex items-center ">
+                                    <div class="bg-no-repeat bg-contain "
+                                        style="background-image:url(../image/moneyblack.png); width: 32px; height: 32px;">
+
+                                    </div>
+                                    <div class="mx-2">
+                                        <p class="text-sm text-gray-500">Ví tiền</p>
+                                        <p class=" font-medium">6,030đ</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <a href="" class="border rounded bg-[#f5f5f5] text-sm">
+                                        Rút tiền
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="lg:w-1/2 w-full">
+                            <div class="flex items-center justify-between border p-3 bg-[#ffffff] px-2 rounded">
+                                <div class="flex items-center ">
+                                    <div class="bg-no-repeat bg-contain "
+                                        style="background-image:url(../image/money-bag.png); width: 32px; height: 32px;">
+
+                                    </div>
+                                    <div class="mx-2">
+                                        <p class="text-sm text-gray-500">Ví mua hàng </p>
+                                        <p class=" font-medium">21,000,000đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:w-1/2 w-full">
+                            <div class="flex items-center justify-between border p-3 bg-[#ffffff] px-2 rounded">
+                                <div class="flex items-center ">
+                                    <div class="bg-no-repeat bg-contain "
+                                        style="background-image:url(../image/dollar.png); width: 32px; height: 32px;">
+
+                                    </div>
+                                    <div class="mx-2">
+                                        <p class="text-sm text-gray-500">Ví điểm </p>
+                                        <p class=" font-medium">5,166,000 ASP</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+
+                        <div class="lg:w-1/2 w-full">
+                            <div class="flex items-center justify-between border p-3 bg-[#ffffff] px-2 rounded">
+                                <div class="flex items-center ">
+                                    <div class="bg-no-repeat bg-contain "
+                                        style="background-image:url(../image/cash-withdrawa.png); width: 32px; height: 32px;">
+
+                                    </div>
+                                    <div class="mx-2">
+                                        <p class="text-sm text-gray-500">Tiền đã rút</p>
+                                        <p class=" font-medium">750,000đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="border bg-[#ffffff] mt-5 lg:ml-4">
+                        <div class="border-b text-sm px-[10px] py-2">
+                            Danh sách giao dịch
+                        </div>
+                        <div class="flex flex-row flex-wrap mt-5 gap-y-3">
+                            <div class="lg:w-1/2 w-full px-[10px]">
+                                <div class="flex items-center ">
+                                    <span class="search w-full">
+                                        <input type="text" placeholder="Tìm kiếm "
+                                            class="rounded-tl-[2px] rounded-bl-[2px]">
+                                    </span>
+                                    <button class="border max-h-8 p-2 rounded-tr-[2px] rounded-br-[2px]">
+                                        <div class="bg-no-repeat bg-contain "
+                                            style="background-image: url(../image/searchh.png); width: 16px; height: 16px;">
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="lg:w-1/2 w-full px-[10px]">
+                                <div class="select-option ">
+                                    <select name="" id="">
+                                        <option value="">Tất cả trạng thái</option>
+                                        <option value="">Duyệt</option>
+                                        <option value="">Hủy</option>
+                                        <option value="">Chờ xác nhận </option>
+                                        <option value="">Chờ thanh toán</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="lg:w-1/2 w-full px-[10px]">
+                                <div class="select-option ">
+                                    <select name="" id="">
+                                        <option value="">Tất cả các loại</option>
+                                        <option value="">Hoa hồng trực tiếp </option>
+                                        <option value="">Doanh số nhóm </option>
+                                        <option value="">Mua gói </option>
+                                        <option value="">mua combo</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="lg:w-1/2 w-full px-[10px]">
+                                <div class="flex items-center ">
+                                    <span class="search w-2/3">
+                                        <input type="date" placeholder="Tìm kiếm " class="rounded-sm">
+                                    </span>
+
+                                </div>
+                            </div>
+                            <div class="text-sm px-[10px] py-2">
+                                Tổng : <span class="text-[#6BAC1C] ">10,000,000đ</span>
+                            </div>
+
+
+
+                        </div>
+                        <div class="overflow-x-auto table-scroll py-2 ">
+                            <table class="lg:w-[120%] w-[250%] table-auto border-collapse scrol" id="myTable">
+                                <tr>
+                                    <th></th>
+                                    <th>ID</th>
+                                    <th>Tiền</th>
+                                    <th>Điểm</th>
+                                    <th>Loại giao dịch</th>
+                                    <th>Ví</th>
+                                    <th>Trạng thái</th>
+                                    <th>Ngày tháng</th>
+                                </tr>
+                                <tr>
+                                    <td><a href="">xem</a></td>
+                                    <td>97978</td>
+                                    <td>+50đ</td>
+                                    <td></td>
+                                    <td>Hoa hồng tương trợ</td>
+                                    <td>Vi tiền thưởng</td>
+                                    <td>Hoàn thành</td>
+                                    <td>16/10/2023-08:00:00</td>
+
+                                </tr>
+                                <tr>
+                                    <td><a href="">xem</a></td>
+                                    <td>97977</td>
+                                    <td>+51đ</td>
+                                    <td></td>
+                                    <td>Hoa hồng tương trợ</td>
+                                    <td>Vi tiền thưởng</td>
+                                    <td>Hoàn thành</td>
+                                    <td>15/10/2023-08:00:00</td>
+
+                                </tr>
+                                <tr>
+                                    <td><a href="">xem</a></td>
+                                    <td>97976</td>
+                                    <td>+52đ</td>
+                                    <td></td>
+                                    <td>Hoa hồng tương trợ</td>
+                                    <td>Vi tiền thưởng</td>
+                                    <td>Hoàn thành</td>
+                                    <td>14/10/2023-08:00:00</td>
+
+                                </tr>
+
+                            </table>
+                        </div>
+                        <div id="pagination" class="pagination my-5 px-[10px]"></div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
